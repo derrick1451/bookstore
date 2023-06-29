@@ -1,37 +1,14 @@
+import { useSelector } from 'react-redux';
 import FormInput from './FormInput';
+import BookItem from './BookItem';
 
 function BooksLogic() {
-  const books = [
-    {
-      id: 1,
-      category: 'Action',
-      title: 'The Hunger Games',
-      Author: 'Suzzane Collins',
-    },
-    {
-      id: 2,
-      category: 'Science Fiction',
-      title: 'Dune',
-      Author: 'Frank Herbert',
-    },
-    {
-      id: 3,
-      category: 'Economy',
-      title: 'Capital In The Twenty First Century',
-      Author: 'Suzzane Collins',
-    },
-  ];
+  const { books } = useSelector((state) => state.books);
+
   return (
     <div className="container">
       <ul>
-        {books.map((book) => (
-          <li key={book.id}>
-            <p>{book.category}</p>
-            <h2>{book.title}</h2>
-            <span>{book.Author}</span>
-            <button type="button">Delete</button>
-          </li>
-        ))}
+        {books.map((book) => <BookItem itemProp={book} key={book.id} />)}
       </ul>
       <FormInput />
     </div>
