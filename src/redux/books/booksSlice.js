@@ -2,26 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/hiViXwgEDzDhmR10wpWU/books';
-// const books = [
-//   {
-//     id: 'item1',
-//     title: 'The Great Gatsby',
-//     author: 'John Smith',
-//     category: 'Fiction',
-//   },
-//   {
-//     id: 'item2',
-//     title: 'Anna Karenina',
-//     author: 'Leo Tolstoy',
-//     category: 'Fiction',
-//   },
-//   {
-//     id: 'item3',
-//     title: 'The Selfish Gene',
-//     author: 'Richard Dawkins',
-//     category: 'Nonfiction',
-//   },
-// ];
+
 export const fetchBooks = createAsyncThunk('fetch/fetchBooks', async () => {
   try {
     const response = await axios.get(url);
