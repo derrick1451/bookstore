@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { addBook } from '../redux/books/booksSlice';
+import { SaveBook } from '../redux/books/booksSlice';
 
 export default function FormInput() {
   const [title, setTitle] = useState('');
@@ -16,14 +16,15 @@ export default function FormInput() {
     setAuthor(e.target.value);
   }
   const newBook = {
-    id: uuidv4(),
+    item_id: uuidv4(),
     title,
     author,
+    category: 'action',
 
   };
   function AddBooks() {
     if (author.trim() || title.trim()) {
-      dispatch(addBook(newBook));
+      dispatch(SaveBook(newBook));
       setTitle('');
       setAuthor('');
       setText('');
