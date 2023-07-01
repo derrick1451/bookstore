@@ -33,9 +33,9 @@ export default function FormInput() {
     }
   }
   return (
-    <div className="form-container">
+    <div className="form-container flex mont-font">
       <h3>ADD NEW BOOK</h3>
-      <form>
+      <form className="form flex">
         <input className="input-title" value={title} onChange={handleChange} type="text" placeholder="Book title...." />
         <input className="input-author" value={author} onChange={handleAuthor} type="text" placeholder="Book author..." />
         <button

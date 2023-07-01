@@ -8,14 +8,15 @@ const BookItem = ({ itemProp }) => {
   //   item_id, title, author, category,
   // } = itemProp;
   return (
-    <div className="book-item">
-      <div className="book">
-        <p className="category">{itemProp.category}</p>
-        <h2 className="title">{itemProp.title}</h2>
-        <p className="author">{itemProp.author}</p>
-        <div className="buttons">
-          <button type="button">Comments</button>
+    <div className="book-item flex bg-color">
+      <div className="book flex text-color">
+        <p className="category mont-font">{itemProp.category}</p>
+        <h2 className="title robo-font">{itemProp.title}</h2>
+        <p className="author robo-font">{itemProp.author}</p>
+        <div className="buttons flex robo-font ">
+          <button className="bg-color" type="button">Comments</button>
           <button
+            className="bg-color"
             onClick={() => {
               dispatch(deleteBooks(itemProp.item_id));
             }}
@@ -23,18 +24,18 @@ const BookItem = ({ itemProp }) => {
           >
             Remove
           </button>
-          <button type="button">Edit</button>
+          <button className="bg-color" type="button">Edit</button>
         </div>
       </div>
-      <div className="progress">
+      <div className="progress flex">
         <div className="circle" />
         <div>
-          <p className="score">100%</p>
+          <p className="score text-color">100%</p>
           <p className="progress-status">Completed</p>
         </div>
 
       </div>
-      <div className="chapter">
+      <div className="chapter flex robo-font text-color">
         <div className="chapter-text">
           <h4>Current chapter</h4>
           <p>Chapter 17</p>

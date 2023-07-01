@@ -8,11 +8,11 @@ const links = [
 ];
 export default function NavBar() {
   return (
-    <header>
+    <header className="bg-color">
       <div className="logo">
-        <h3 className="header-logo">BookStore CMS</h3>
+        <h3 className="header-logo mont-font">BookStore CMS</h3>
         <nav>
-          <ul>
+          <ul className="list-itemz flex">
             {links.map((link) => (
               <li key={link.text}>
                 <NavLink to={link.path}>{link.text}</NavLink>

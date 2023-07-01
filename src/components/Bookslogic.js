@@ -19,7 +19,7 @@ function BooksLogic() {
 
   return (
     <div className="container">
-      <div className="books-container">
+      <div className="books-container flex">
         {books.map((book) => <BookItem itemProp={book} key={book.item_id} />)}
       </div>
       <FormInput />
