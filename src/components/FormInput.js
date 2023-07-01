@@ -33,11 +33,11 @@ export default function FormInput() {
     }
   }
   return (
-    <div>
+    <div className="form-container">
       <h3>ADD NEW BOOK</h3>
       <form>
-        <input value={title} onChange={handleChange} type="text" placeholder="enter book title....." />
-        <input value={author} onChange={handleAuthor} type="text" placeholder="enter book author....." />
+        <input className="input-title" value={title} onChange={handleChange} type="text" placeholder="Book title...." />
+        <input className="input-author" value={author} onChange={handleAuthor} type="text" placeholder="Book author..." />
         <button
           onClick={() => {
             AddBooks();
