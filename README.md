@@ -65,7 +65,7 @@ In order to run this project you need:
 
 👤 **Okongo Derrick**
     
-- GitHub: [@derrick14](https://github.com/derrick14/51)
+- GitHub: [@derrick14](https://github.com/derrick1451)
 - Twitter: [@derrick14](https://twitter.com/DerrickHayle)
 - LinkedIn: [okongo derrick](https://www.linkedin.com/in/okongo-derrick-a0147622b/)
 
