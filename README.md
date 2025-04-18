@@ -20,7 +20,7 @@
 # 📖 Bookstore <a name="about-project"></a>
 
 
-**BookStore** this is a single page application implemented with react as a build tool.the user adds books onto the page through submitting a form.
+**BookStore** this is a single page application implemented with React as the build tool.the user adds books onto the page through submitting a form.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
