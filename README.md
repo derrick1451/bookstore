@@ -92,7 +92,7 @@ Feel free to check the [issues page](https://github.com/derrick1451/bookstore/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project don't hesitate to give it a  star. ⭐️
+If you like this project, don't hesitate to give it a star. ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
