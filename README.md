@@ -10,7 +10,7 @@
     - [Usage](#usage)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
+  - [🤝 Contributing ](#-contributing-) 
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
