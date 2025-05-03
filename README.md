@@ -96,7 +96,7 @@ If you like this project, don't hesitate to give it a star. ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I want to give special thanks to Microverse for the great opportunity given to me to realise my dreams.
+I want to give special thanks to Microverse for the great opportunity given to me to realise my dreams
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
